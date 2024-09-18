@@ -73,7 +73,6 @@
             this.lblNum1.Name = "lblNum1";
             this.lblNum1.Size = new System.Drawing.Size(0, 30);
             this.lblNum1.TabIndex = 38;
-            this.lblNum1.Click += new System.EventHandler(this.lblNum1_Click);
             // 
             // lblResultado
             // 
@@ -84,7 +83,6 @@
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 30);
             this.lblResultado.TabIndex = 37;
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // btBorrar
             // 

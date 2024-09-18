@@ -120,51 +120,121 @@ namespace Parcial_1
 
         private void btCero_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "0";
         }
 
         private void btUno_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "1";
         }
 
         private void btDos_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "2";
         }
 
         private void btTres_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "3";
         }
 
         private void btCuatro_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "4";
         }
 
         private void btCinco_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "5";
         }
 
         private void btSeis_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "6";
         }
 
         private void btSiete_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "7";
         }
 
         private void btOcho_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "8";
         }
 
         private void btNueve_Click(object sender, EventArgs e)
         {
+            if (lastEqual)
+            {
+                lblResultado.Text = "";
+                lblNum1.Text = "";
+                valorNum1 = "";
+                lastEqual = false;
+            }
             lblResultado.Text = lblResultado.Text + "9";
         }
 
@@ -210,17 +280,6 @@ namespace Parcial_1
             lblNum1.Text = auxNum1;
             lblResultado.Text = auxRes;
         }
-
-        private void lblNum1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblResultado_Click(object sender, EventArgs e)
-        {
-
-        }
-
 
 
         #endregion
