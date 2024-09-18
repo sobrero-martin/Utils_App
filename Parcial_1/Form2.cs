@@ -125,6 +125,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "0";
@@ -137,6 +139,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "1";
@@ -149,6 +153,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "2";
@@ -161,6 +167,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "3";
@@ -173,6 +181,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "4";
@@ -185,6 +195,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "5";
@@ -197,6 +209,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "6";
@@ -209,6 +223,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "7";
@@ -221,6 +237,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "8";
@@ -233,6 +251,8 @@ namespace Parcial_1
                 lblResultado.Text = "";
                 lblNum1.Text = "";
                 valorNum1 = "";
+                auxIgual = "";
+                isSet = false;
                 lastEqual = false;
             }
             lblResultado.Text = lblResultado.Text + "9";
