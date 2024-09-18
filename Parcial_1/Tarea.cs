@@ -32,7 +32,7 @@ namespace Parcial_1
         {
             return Codigo + " - " + Descripcion + " - " + FechaInicio + " - " + FechaFin;
         }
-        public string Borrar(ref List<int> cod,ref List<string> text, int codigo, string backup)
+        public string Borrar(ref List<int> cod, ref List<string> text, int codigo, string backup)
         {
             if (codigo > cod.Count)
             {
@@ -40,7 +40,8 @@ namespace Parcial_1
                 return backup;
             }
             cod.RemoveAt(cod.Find(x => x == codigo - 1));
-            text.RemoveAt(cod.Find(x => x == codigo - 1));
+            text.RemoveAt(codigo - 1);
+          
             string label = "";
 
             for (int i = 0; i < cod.Count; i++)
