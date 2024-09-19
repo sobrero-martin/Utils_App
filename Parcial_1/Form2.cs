@@ -122,12 +122,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "0";
         }
@@ -136,26 +133,20 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "1";
         }
 
         private void btDos_Click(object sender, EventArgs e)
         {
-            if (lastEqual)
+            if(lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "2";
         }
@@ -164,12 +155,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "3";
         }
@@ -178,12 +166,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "4";
         }
@@ -192,12 +177,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "5";
         }
@@ -206,12 +188,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "6";
         }
@@ -220,12 +199,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "7";
         }
@@ -234,12 +210,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "8";
         }
@@ -248,12 +221,9 @@ namespace Parcial_1
         {
             if (lastEqual)
             {
-                lblResultado.Text = "";
-                lblNum1.Text = "";
-                valorNum1 = "";
-                auxIgual = "";
-                isSet = false;
-                lastEqual = false;
+                calc.reset(ref valorNum1, ref auxIgual, ref isSet, ref lastEqual);
+                lblResultado.Text = auxIgual;
+                lblNum1.Text = valorNum1;
             }
             lblResultado.Text = lblResultado.Text + "9";
         }

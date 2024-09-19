@@ -57,6 +57,8 @@ namespace Parcial_1
 
         List<int> codigo = new List<int>();
         List<string> text = new List<string>();
+        List<string> inicio = new List<string>();
+        List<string> fin = new List<string>();
         int i = 0;
 
         private void btAgregar_Click(object sender, EventArgs e)
@@ -74,19 +76,21 @@ namespace Parcial_1
             i++;
             codigo.Add(i);
             tarea.Crear(i, txtDesc.Text, dtpFin.Value);
-            text.Add(tarea.agregarLista());
+            text.Add(tarea.AgregarDesc());
+            inicio.Add(tarea.AgregarInicio());
+            fin.Add(tarea.AgregarFin());
 
             lblTareas.Text = lblTareas.Text + "\r\n" + tarea.Escribir();
         }
 
         private void btBorrar_Click(object sender, EventArgs e)
         {
-            lblTareas.Text = tarea.Borrar(ref codigo,ref text, Convert.ToInt32(txtCod.Text), lblTareas.Text);
+            lblTareas.Text = tarea.Borrar(ref codigo,ref text, Convert.ToInt32(txtCod.Text), lblTareas.Text, ref inicio, ref fin);
         }
 
         private void btEditar_Click(object sender, EventArgs e)
         {
-            lblTareas.Text = tarea.Editar(ref codigo, ref text, Convert.ToInt32(txtCod.Text), lblTareas.Text, txtDesc.Text);
+            lblTareas.Text = tarea.Editar(ref codigo, ref text, Convert.ToInt32(txtCod.Text), lblTareas.Text, txtDesc.Text, ref inicio, ref fin, dtpFin.Value);
         }
     }
 }

@@ -8,7 +8,14 @@ namespace Parcial_1
 {
     internal class Calculadora
     {
-       
+        public void reset(ref string valorNum1, ref string auxIgual,ref bool isSet, ref bool lastEqual)
+        {
+            valorNum1 = "";
+            auxIgual = "";
+            isSet = false;
+            lastEqual = false;
+        }
+
         public void res(ref string valorNum1, ref string lblNum1, ref string lblResultado,ref string op, string neutro, ref bool lastEqual, ref bool isSet)
         {
             if (valorNum1 == "")
